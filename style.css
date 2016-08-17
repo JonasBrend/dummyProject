@@ -1,0 +1,36 @@
+h1 {
+    background-color: green;
+    text-align: center
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: left;
+}
+tr {
+    text-align: left;
+}
+th {
+    text-align: left;
+    float: left;
+}
+
+#komment {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
