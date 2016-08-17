@@ -20,10 +20,20 @@ class comments {
         $this->text = $text;
         $this->userId = $userId;
     }
+    
+    /**
+     * Setzen von Text
+     * @param string $text
+     */
     public function setText($text){
         $this->text = $text;
     }
     
+    /**
+     *
+     * 
+     * @return string
+     */
     public function getText(){
         return $this->text;   
     }
